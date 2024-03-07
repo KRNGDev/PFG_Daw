@@ -1,7 +1,8 @@
 # PFG_Daw
- Proyecto finde grado de FP Daw
+ Proyecto finde grado de FP Daw. Proyecto Plataforma de Gestion_Backlog.
 
- Proyecto_Plataforma_Gestion_Backlog/
+
+# Guia de uso de cada carpeta del proyecto
 
 docs/                     # Documentación del proyecto
 
