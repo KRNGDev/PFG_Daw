@@ -2,18 +2,18 @@
  Proyecto finde grado de FP Daw
 
  Proyecto_Plataforma_Gestion_Backlog/
-│
-├───docs/                     # Documentación del proyecto/
-│   ├───requirements/         # Requisitos del sistema/
-│   ├───design/               # Diseño de la plataforma/
-│   └───user_manual/          # Manual de usuario/
-│/
-├───src/                      # Código fuente del proyecto/
-│   ├───backend/              # Backend de la plataforma/
-│   │   ├───controllers/      # Controladores de la lógica de negocio/
-│   │   ├───models/           # Modelos de datos/
-│   │   ├───routes/           # Rutas de la API/
-│   │   └───middlewares/      # Middlewares para manejo de peticiones/
+
+docs/                     # Documentación del proyecto
+    requirements/         # Requisitos del sistema
+    design/               # Diseño de la plataforma
+    user_manual/          # Manual de usuario
+
+src/                      # Código fuente del proyecto
+    backend/              # Backend de la plataforma
+        controllers/      # Controladores de la lógica de negocio
+        models/           # Modelos de datos
+        routes/           # Rutas de la API
+        middlewares/      # Middlewares para manejo de peticiones
 │   │/
 │   └───frontend/             # Frontend de la plataforma/
 │       ├───components/       # Componentes de la interfaz de usuario/
