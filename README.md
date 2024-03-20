@@ -1,12 +1,12 @@
 # PFG_Daw
  Proyecto fin de grado de FP Daw. 
 
-# Proyecto Plataforma de Gestion_Backlog.
+## Proyecto Plataforma de Gestion_Backlog.
 
  Para iniciar hay que escribir "npm run server" en una terminal y en otra "npm run dev" para activar el servidor y las funciones de tailwind respectivamente
 
 
-# Guia de uso de cada carpeta del proyecto
+### Guia de uso de cada carpeta del proyecto
 
     docs/                     # Documentación del proyecto
 
