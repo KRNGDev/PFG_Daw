@@ -1,5 +1,6 @@
 # PFG_Daw
  Proyecto finde grado de FP Daw. Proyecto Plataforma de Gestion_Backlog.
+ Para iniciar hay que escribir "npm run server" en una terminal y en otra "npm run dev" para activar el servidor y las funciones de tailwind respectivamente
 
 
 # Guia de uso de cada carpeta del proyecto
@@ -12,46 +13,37 @@ docs/                     # Documentación del proyecto
 
     user_manual/          # Manual de usuario
 
+config/                   # Configuración de datos del la pagina como entrada a la base de datos
+
+controllers/              # Controladores de la lógica de negocio
+
+Helpers/                  # Scripts y archivos para despliegue
+
+public/                   # Carpeta con los archivos publicos
+
+    css/                  # Archivos de estilo con Tailwind
+
+    img/                  # Imagenes de archivo
+
+    js/                   # Scripts js publicos
+
+models/                   # Modelos de datos
+
+routes/                   # Rutas de la API
+
 src/                      # Código fuente del proyecto
 
-    backend/              # Backend de la plataforma
-
-        controllers/      # Controladores de la lógica de negocio
-
-        models/           # Modelos de datos
-
-        routes/           # Rutas de la API
-
-        middlewares/      # Middlewares para manejo de peticiones
 
 
-    frontend/             # Frontend de la plataforma
+views/                   # Carpeta con los archivos vista de la pagina
 
-        components/       # Componentes de la interfaz de usuario
+    auth/                # Archivos .pug para el inicio de sesion
 
-        pages/            # Páginas principales de la aplicación
+    layout/              # Archivos .pug principales para el estilo de la pagina
 
-        services/         # Servicios para interactuar con el backend
+    tareas/              # Archivos .pug para las paginas de cracion de tareas
 
-        styles/           # Estilos CSS
+    templates/           # Archivos .pug para la pagian del envio de mensajes email
 
-tests/                    # Pruebas del sistema
-
-    unit/                 # Pruebas unitarias
-    integration/          # Pruebas de integración
-
-config/                   # Configuración del proyecto
-
-    atabase/             # Configuración de la base de datos
-
-    environment/          # Variables de entorno
-
-deploy/                   # Scripts y archivos para despliegue
-
-    docker/               # Archivos de configuración de Docker
-
-    scripts/              # Scripts de despliegue automatizado
-
-    nginx/                # Configuración de Nginx (si es necesario)
-
+.env/                    # Archivos para el ocultamiento de credenciales importantes
 

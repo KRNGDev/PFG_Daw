@@ -1,0 +1,55 @@
+extends ../layout/index
+
+
+block contenido
+    .py-10 
+        h1.text-4xl.my-10.font-extrabold.text-center BackLog
+            span.font-normal Archives
+        h2.text-center.text-3xl.text-blue-600.font-extrabold= pagina 
+
+        div(class="bg-white shadow py-8 px-4 rounded mx-auto max-w-4xl my-10 md:px-10")
+            form.space-y-5
+                .space-y-5 
+                    h3.text-leg.leading.font-medium.text-gray-900 Información General 
+                    p.text-gray-600 Añade la Información
+
+                    div
+                        label.block.text-sm.uppercase.text-gray-500.mb-2.font-bold(for="titulo") Titulo de anuncio 
+                        input#titulo.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Titulo" type="text" name="titulo")
+
+
+                    div(class="md:flex md:gap-4 space-y-5 md:space-y-0")   
+                        
+                        div(class="md:w-1/2")
+                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="categoria") Categoria  
+                            select#categoria.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="categoria")
+                                option(value="") - Selecciona -
+                        div(class="md:w-1/2")
+                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="precio") Precio  
+                            select#precio.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="precio")
+                                option(value="") - Selecciona -
+                    
+                    div(class="md:flex md:gap-4 space-y-5 md:space-y-0")                         
+                        div(class="md:w-1/3")
+                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="objetivo") Objetivo  
+                            select#objetivo.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="objetivo")
+                                option(value="") - Selecciona -
+                                - var n =1;
+                                    while n < 10
+                                        option(value=n ) #{n++} 
+
+                        div(class="md:w-1/3")
+                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="prioridad") Prioridad  
+                            select#prioridad.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="prioridad")
+                                option(value="") - Selecciona -
+                                - var n =1;
+                                    while n < 5
+                                        option(value=n ) #{n++} 
+
+                        div(class="md:w-1/3")
+                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="duracion") Duracion  
+                            select#duracion.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="duracion")
+                                option(value="") - Selecciona -
+                                - var n =1;
+                                    while n < 5
+                                        option(value=n ) #{n++} 
