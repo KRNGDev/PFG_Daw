@@ -17,7 +17,8 @@ config/                   # Configuración de datos del la pagina como entrada a
 
 controllers/              # Controladores de la lógica de negocio
 
-Helpers/                  # Scripts y archivos para despliegue
+Helpers/                  # Scripts y archivos para La autentificacion con tokens y conexion 
+                            para envio de emails de confirmacion
 
 public/                   # Carpeta con los archivos publicos
 
