@@ -1,5 +1,6 @@
 # PFG_Daw
- Proyecto finde grado de FP Daw. Proyecto Plataforma de Gestion_Backlog./n
+ Proyecto finde grado de FP Daw. Proyecto Plataforma de Gestion_Backlog.
+ 
  Para iniciar hay que escribir "npm run server" en una terminal y en otra "npm run dev" para activar el servidor y las funciones de tailwind respectivamente
 
 
