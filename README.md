@@ -14,7 +14,7 @@
 
 ![Static Badge](https://img.shields.io/badge/Documentaci%C3%B3n%20del%20proyecto-yellow?style=for-the-badge&logoColor=black&label=Docs)
 
--**![Static Badge](https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00)**
+**- ![Static Badge](https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00)**
 
 
 
