@@ -4,8 +4,8 @@ Proyecto fin de grado de FP Daw.
 
 ## Proyecto Plataforma de Gestion_Backlog.📂
 
-Para iniciar hay que escribir ![Static Badge](https://img.shields.io/badge/npm%20run%20server--gray?style=for-the-badge)
-en una terminal y en otra ![Static Badge](https://img.shields.io/badge/npm%20run%20dev--gray?style=for-the-badge)
+Para iniciar hay que escribir ![Static Badge](https://img.shields.io/badge/npm%20run%20server--gray?style=flat-square)
+en una terminal y en otra ![Static Badge](https://img.shields.io/badge/npm%20run%20dev--gray?style=flat-square)
 para activar el servidor y las funciones de tailwind respectivamente
 
 ## Tecnologias usadas
