@@ -25,6 +25,7 @@ para activar el servidor y las funciones de tailwind respectivamente
         <img src="https://img.shields.io/badge/Manual%20de%20usuario-yellow?style=plastic&logoColor=black&label=User_manual&color=FDEE00">
     </li>
 </ul>
+
 ---
 
 📂 ![Static Badge](https://img.shields.io/badge/Controladores%20de%20la%20l%C3%B3gica%20de%20negocio-yellow?style=for-the-badge&logoColor=black&label=Controllers&color=EF9B0F)
