@@ -17,7 +17,7 @@ Para este proyecto, utilizaremos una combinación de tecnologías modernas y pot
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) : Usaremos CSS para estilizar y diseñar nuestras páginas web. CSS nos permite controlar el aspecto visual de nuestros elementos HTML, lo que nos permite crear interfaces de usuario atractivas y responsivas.
 
-![Node.js](https://img.shields.io/badge/Node.js-black?style=flat-square&logo=Node.js&labelColor=black&color=green) y npm (Node Package Manager): Utilizaremos Node.js, junto con su administrador de paquetes npm, como entorno de ejecución de JavaScript en el servidor. Node.js nos permite construir aplicaciones web escalables y de alto rendimiento utilizando JavaScript en el backend.
+![Node.js](https://img.shields.io/badge/Node.js-black?style=flat-square&logo=Node.js&labelColor=black&color=green) y [npm (Node Package Manager)](https://img.shields.io/badge/Npm-grey?style=flat-square&logo=npm&labelColor=3B3C36&color=C51E3A) : Utilizaremos Node.js, junto con su administrador de paquetes npm, como entorno de ejecución de JavaScript en el servidor. Node.js nos permite construir aplicaciones web escalables y de alto rendimiento utilizando JavaScript en el backend.
 
 ![Tailwind](https://img.shields.io/badge/Tailwind-blue?style=flat-square&logo=Tailwindcss) : Emplearemos el framework de diseño Tailwind CSS para agilizar el desarrollo frontend y mantener un código limpio y mantenible. Tailwind CSS nos proporciona un conjunto de utilidades predefinidas que facilitan la creación de interfaces de usuario modernas y personalizadas.
 
