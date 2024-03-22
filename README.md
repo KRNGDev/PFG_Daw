@@ -8,7 +8,7 @@ Para iniciar hay que escribir ![Static Badge](https://img.shields.io/badge/npm%2
 en una terminal y en otra ![Static Badge](https://img.shields.io/badge/npm%20run%20dev--gray?style=flat-square)
 para activar el servidor y las funciones de tailwind respectivamente
 
-## Tecnologias usadas
+## Tecnologias usadas 📈
 Para este proyecto, utilizaremos una combinación de tecnologías modernas y potentes para garantizar un desarrollo eficiente y robusto:
 
 ![javaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E) : Como lenguaje principal de programación, utilizaremos JavaScript para el desarrollo tanto del frontend como del backend de la aplicación. JavaScript nos proporciona la versatilidad necesaria para crear aplicaciones web dinámicas e interactivas.
@@ -39,7 +39,7 @@ Para este proyecto, utilizaremos una combinación de tecnologías modernas y pot
 
 Con esta poderosa combinación de tecnologías, estamos preparados para desarrollar una aplicación web moderna, segura y altamente funcional que cumpla con los requisitos y expectativas del proyecto.
 
-### Guia de uso de cada carpeta del proyecto
+### Guia de uso de cada carpeta del proyecto 📋
 
 📂 ![Static Badge](https://img.shields.io/badge/Documentaci%C3%B3n%20del%20proyecto-yellow?style=for-the-badge&logoColor=black&label=Docs)
 
