@@ -8,7 +8,7 @@ Para iniciar hay que escribir ![Static Badge](https://img.shields.io/badge/npm%2
 en una terminal y en otra ![Static Badge](https://img.shields.io/badge/npm%20run%20dev--gray?style=for-the-badge)
 para activar el servidor y las funciones de tailwind respectivamente
 
-## tecnologias usadas
+## Tecnologias usadas
 
 ### Guia de uso de cada carpeta del proyecto
 
@@ -25,13 +25,18 @@ para activar el servidor y las funciones de tailwind respectivamente
         <img src="https://img.shields.io/badge/Manual%20de%20usuario-yellow?style=plastic&logoColor=black&label=User_manual&color=FDEE00">
     </li>
 </ul>
+---
 
 📂 ![Static Badge](https://img.shields.io/badge/Controladores%20de%20la%20l%C3%B3gica%20de%20negocio-yellow?style=for-the-badge&logoColor=black&label=Controllers&color=EF9B0F)
 
+---
+
 📂 ![Static Badge](https://img.shields.io/badge/Configuraci%C3%B3n%20de%20datos%20del%20la%20pagina%20como%20entrada%20a%20la%20base%20de%20datos-yellow?style=for-the-badge&logoColor=black&label=Config&color=0000FF)
 
+---
 📂 ![Static Badge](https://img.shields.io/badge/Scripts%20y%20archivos%20para%20La%20autentificacion%20con%20tokens%20y%20Email-yellow?style=for-the-badge&logoColor=black&label=Helpers&color=C51E3A)
 
+---
 📂 ![Static Badge](https://img.shields.io/badge/Carpeta%20con%20los%20archivos%20publicos-yellow?style=for-the-badge&logoColor=black&label=Public&color=6C3082)
 
 <ul>
@@ -46,12 +51,16 @@ para activar el servidor y las funciones de tailwind respectivamente
     </li>
 </ul>
 
+---
 📂 ![Static Badge](https://img.shields.io/badge/Modelos%20de%20datos-yellow?style=for-the-badge&logoColor=black&label=Models&color=4A5D23)
 
+---
 📂![Static Badge](https://img.shields.io/badge/Rutas%20de%20la%20API-yellow?style=for-the-badge&logoColor=black&label=Routes&color=568203)
 
+---
 📂![Static Badge](https://img.shields.io/badge/C%C3%B3digo%20fuente%20del%20proyecto-yellow?style=for-the-badge&logoColor=black&label=src&color=66FF00)
 
+---
 📂![Static Badge](https://img.shields.io/badge/Carpeta%20con%20los%20archivos%20vista%20de%20la%20pagina-yellow?style=for-the-badge&logoColor=black&label=Views&color=79443B)
 
 <ul>
@@ -69,6 +78,7 @@ para activar el servidor y las funciones de tailwind respectivamente
     </li>
 </ul>
 
+---
 📃![Static Badge](https://img.shields.io/badge/Archivos%20para%20el%20ocultamiento%20de%20credenciales%20importantes-yellow?style=for-the-badge&logoColor=black&label=.env&color=C0C0C0)
 
 
