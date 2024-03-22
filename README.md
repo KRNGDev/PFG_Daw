@@ -13,47 +13,46 @@ para activar el servidor y las funciones de tailwind respectivamente
 ### Guia de uso de cada carpeta del proyecto
 
 ![Static Badge](https://img.shields.io/badge/Documentaci%C3%B3n%20del%20proyecto-yellow?style=for-the-badge&logoColor=black&label=Docs)
+
 <ul>
-<li>
-    <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00">
-</li>
-<li>
-    <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00">
-    <ul>
-        <li>
-            <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00">
-        </li>
-    </ul>    
-</li>
-<li>
-    <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00">
-</li>
-</ul> 
+    <li>
+        <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=plastic&logoColor=black&label=requirements&color=FDEE00">
+    </li>
+    <li>
+        <img src="https://img.shields.io/badge/Dise%C3%B1o%20de%20la%20plataforma-yellow?style=plastic&logoColor=black&label=Design&color=FDEE00">
+    </li>
+    <li>
+        <img src="https://img.shields.io/badge/Manual%20de%20usuario-yellow?style=plastic&logoColor=black&label=User_manual&color=FDEE00">
+    </li>
+</ul>
 
-       
+![Static Badge](https://img.shields.io/badge/Configuraci%C3%B3n%20de%20datos%20del%20la%20pagina%20como%20entrada%20a%20la%20base%20de%20datos-yellow?style=for-the-badge&logoColor=black&label=Config&color=0000FF)
+
+![Static Badge](https://img.shields.io/badge/Controladores%20de%20la%20l%C3%B3gica%20de%20negocio-yellow?style=for-the-badge&logoColor=black&label=Controllers&color=EF9B0F)
+
+![Static Badge](https://img.shields.io/badge/Scripts%20y%20archivos%20para%20La%20autentificacion%20con%20tokens%20y%20Email-yellow?style=for-the-badge&logoColor=black&label=Helpers&color=C51E3A)
+
+![Static Badge](https://img.shields.io/badge/Carpeta%20con%20los%20archivos%20publicos-yellow?style=for-the-badge&logoColor=black&label=Public&color=6C3082)
+
+<ul>
+    <li>
+        <img src="https://img.shields.io/badge/Archivos%20de%20estilo%20con%20Tailwind-yellow?style=plastic&logoColor=black&label=CSS&color=BF00FF">
+    </li>
+    <li>
+        <img src="https://img.shields.io/badge/Imagenes%20de%20archivo-yellow?style=plastic&logoColor=black&label=Img&color=BF00FF">
+    </li>
+    <li>
+        <img src="https://img.shields.io/badge/Scripts%20js%20publicos-yellow?style=plastic&logoColor=black&label=Js&color=BF00FF">
+    </li>
+</ul>
 
 
 
-        requirements/         # Requisitos del sistema
 
-        design/               # Diseño de la plataforma
 
-        user_manual/          # Manual de usuario
 
-    config/                   # Configuración de datos del la pagina como entrada a la base de datos
 
-    controllers/              # Controladores de la lógica de negocio
 
-    Helpers/                  # Scripts y archivos para La autentificacion con tokens y conexion
-                                para envio de emails de confirmacion
-
-    public/                   # Carpeta con los archivos publicos
-
-        css/                  # Archivos de estilo con Tailwind
-
-        img/                  # Imagenes de archivo
-
-        js/                   # Scripts js publicos
 
     models/                   # Modelos de datos
 
