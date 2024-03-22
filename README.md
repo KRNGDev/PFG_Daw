@@ -17,8 +17,19 @@ para activar el servidor y las funciones de tailwind respectivamente
 <li>
     <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00">
 </li>
+<li>
+    <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00">
+    <ul>
+        <li>
+            <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00">
+        </li>
+    </ul>    
+</li>
+<li>
+    <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00">
+</li>
 
-        ![Static Badge](https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00)
+       
 
 
 
