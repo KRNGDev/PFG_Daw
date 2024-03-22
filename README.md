@@ -12,7 +12,14 @@
 
 ### Guia de uso de cada carpeta del proyecto
 
+
+
 ![Static Badge](https://img.shields.io/badge/Documentaci%C3%B3n%20del%20proyecto-yellow?style=for-the-badge&logoColor=black&label=Docs)
+ <li>Desarrollo de Aplicaciones Web:
+          <img src="https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00">
+          <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white">
+          <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white">
+        </li>
 
         ![Static Badge](https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00)
 
