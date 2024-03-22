@@ -3,6 +3,7 @@
 Proyecto fin de grado de FP Daw.
 
 ## Proyecto Plataforma de Gestion_Backlog.📂
+Una plataforma en línea diseñada para facilitar la creación, organización y gestión eficiente del Backlog de un proyecto utilizando la metodología ágil Scrum.
 
 Para iniciar hay que escribir ![Static Badge](https://img.shields.io/badge/npm%20run%20server--gray?style=flat-square)
 en una terminal y en otra ![Static Badge](https://img.shields.io/badge/npm%20run%20dev--gray?style=flat-square)
