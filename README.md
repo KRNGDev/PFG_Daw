@@ -9,6 +9,35 @@ en una terminal y en otra ![Static Badge](https://img.shields.io/badge/npm%20run
 para activar el servidor y las funciones de tailwind respectivamente
 
 ## Tecnologias usadas
+Para este proyecto, utilizaremos una combinación de tecnologías modernas y potentes para garantizar un desarrollo eficiente y robusto:
+
+![javaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E) : Como lenguaje principal de programación, utilizaremos JavaScript para el desarrollo tanto del frontend como del backend de la aplicación. JavaScript nos proporciona la versatilidad necesaria para crear aplicaciones web dinámicas e interactivas.
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) : Utilizaremos HTML para definir la estructura y el contenido de nuestras páginas web. HTML es el lenguaje estándar para la creación de documentos web y nos permite organizar la información de manera semántica.
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) : Usaremos CSS para estilizar y diseñar nuestras páginas web. CSS nos permite controlar el aspecto visual de nuestros elementos HTML, lo que nos permite crear interfaces de usuario atractivas y responsivas.
+
+![Node.js](https://img.shields.io/badge/Node.js-black?style=flat-square&logo=Node.js&labelColor=black&color=green) y npm (Node Package Manager): Utilizaremos Node.js, junto con su administrador de paquetes npm, como entorno de ejecución de JavaScript en el servidor. Node.js nos permite construir aplicaciones web escalables y de alto rendimiento utilizando JavaScript en el backend.
+
+![Tailwind](https://img.shields.io/badge/Tailwind-blue?style=flat-square&logo=Tailwindcss) : Emplearemos el framework de diseño Tailwind CSS para agilizar el desarrollo frontend y mantener un código limpio y mantenible. Tailwind CSS nos proporciona un conjunto de utilidades predefinidas que facilitan la creación de interfaces de usuario modernas y personalizadas.
+
+[Sequelize](https://img.shields.io/badge/sequelize-323330?style=flat-square&logo=sequelize&logoColor=blue) : Para interactuar con nuestra base de datos relacional, utilizaremos Sequelize, un ORM (Object-Relational Mapping) para Node.js que simplifica la comunicación con la base de datos y nos permite trabajar con modelos de datos de manera intuitiva.
+
+[Webpack](https://img.shields.io/badge/Webpack-grey?style=flat-square&logo=webpack&labelColor=3B3C36&color=00B9E8) : Usaremos Webpack como nuestro bundler de módulos para empaquetar y optimizar nuestros archivos JavaScript y CSS. Webpack nos permite gestionar eficientemente las dependencias de nuestro proyecto y generar paquetes optimizados para su implementación en producción.
+
+[Nodemon](https://img.shields.io/badge/Nodemon-grey?style=flat-square&logo=nodemon&labelColor=3B3C36) : Nodemon será nuestra herramienta de desarrollo que supervisará los cambios en nuestros archivos y reiniciará automáticamente el servidor cuando sea necesario. Esto nos permitirá realizar cambios en tiempo real sin tener que reiniciar manualmente el servidor.
+
+[Pug](https://img.shields.io/badge/Pug-grey?style=flat-square&logo=pug&labelColor=F5F5F5&color=F5F5F5) : Utilizaremos Pug como nuestro motor de plantillas HTML para generar dinámicamente el contenido de nuestras páginas web en el servidor. Pug nos ofrece una sintaxis concisa y legible que facilita la creación de plantillas HTML dinámicas y reutilizables.
+
+[MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white) : Como sistema de gestión de bases de datos relacional, emplearemos MySQL para almacenar y gestionar los datos de nuestra aplicación. MySQL es una opción popular y robusta para aplicaciones web que requieren un almacenamiento de datos estructurado y fiable.
+
+[jsonwebtoken](https://img.shields.io/badge/json%20web%20tokens-323330?style=flat-square&logo=json-web-tokens&logoColor=pink) : Utilizaremos jsonwebtoken para la autenticación y la generación de tokens de acceso seguros. jsonwebtoken nos permite implementar sistemas de autenticación basados en tokens JWT (JSON Web Tokens) de forma sencilla y segura.
+
+[Express](https://img.shields.io/badge/Express.js-404D59?style=flat-square) : Emplearemos Express como nuestro framework de servidor web para Node.js. Express nos proporciona una arquitectura web minimalista y flexible que facilita la creación de API RESTful y aplicaciones web escalables y eficientes.
+
+[bcrypt](https://img.shields.io/badge/Bcrypt-grey?style=flat-square&color=9966CC) : Utilizaremos bcrypt para el cifrado seguro de contraseñas. bcrypt es una biblioteca de cifrado de contraseñas diseñada para ser segura y resistente a los ataques de fuerza bruta, lo que garantiza la seguridad de las credenciales de los usuarios.
+
+Con esta poderosa combinación de tecnologías, estamos preparados para desarrollar una aplicación web moderna, segura y altamente funcional que cumpla con los requisitos y expectativas del proyecto.
 
 ### Guia de uso de cada carpeta del proyecto
 
