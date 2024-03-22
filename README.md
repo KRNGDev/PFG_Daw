@@ -1,14 +1,21 @@
-# PFG_Daw
+# PFG_Daw 🚀
  Proyecto fin de grado de FP Daw. 
 
-## Proyecto Plataforma de Gestion_Backlog.
+## Proyecto Plataforma de Gestion_Backlog.📂 
 
- Para iniciar hay que escribir "npm run server" en una terminal y en otra "npm run dev" para activar el servidor y las funciones de tailwind respectivamente
+ Para iniciar hay que escribir ![Static Badge](https://img.shields.io/badge/npm%20run%20server--gray?style=for-the-badge)
+ en una terminal y en otra ![Static Badge](https://img.shields.io/badge/npm%20run%20dev--gray?style=for-the-badge)
+ para activar el servidor y las funciones de tailwind respectivamente
+
+ ## tecnologias usadas
 
 
 ### Guia de uso de cada carpeta del proyecto
 
-    docs/                     # Documentación del proyecto
+![Static Badge](https://img.shields.io/badge/Documentaci%C3%B3n%20del%20proyecto-yellow?style=for-the-badge&logoColor=black&label=Docs)
+        ![Static Badge](https://img.shields.io/badge/Requisitos%20del%20sistema-yellow?style=for-the-badge&logoColor=black&label=requirements&color=FDEE00)
+
+
 
         requirements/         # Requisitos del sistema
 
