@@ -7,7 +7,7 @@ Una plataforma en línea diseñada para facilitar la creación, organización y 
 
 Para iniciar hay que escribir ![Static Badge](https://img.shields.io/badge/npm%20run%20server--gray?style=flat-square)
 en una terminal y en otra ![Static Badge](https://img.shields.io/badge/npm%20run%20dev--gray?style=flat-square)
-para activar el servidor y las funciones de tailwind respectivamente
+para activar el servidor y las funciones de tailwind respectivamente, se necesita una base de datos para guardar los datos de usuario.
 
 ## Tecnologias usadas 📈
 Para este proyecto, utilizaremos una combinación de tecnologías modernas y potentes para garantizar un desarrollo eficiente y robusto:
