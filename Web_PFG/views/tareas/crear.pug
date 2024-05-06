@@ -1,56 +1,55 @@
-extends ../layout/index
+extends ../layout/admin
 
+block styles 
+    link(rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css")
 
 block contenido
     .py-10 
-        h1.text-4xl.my-10.font-extrabold.text-center BackLog
-            span.font-normal Archives
-        h2.text-center.text-3xl.text-blue-600.font-extrabold= pagina 
+        h1.text-4xl.my-10.font-extrabold.text-center Back
+            span.font-normal Log
+        h2.text-center.text-3xl.text-indigo-600.font-extrabold= pagina 
+
+        if errores 
+            div(class="max-w-md mx-auto my-10")
+                each error in errores 
+                    p.bg-indigo-600.text-white.uppercase.text-center.p-2.mb-1.font-bold.rounded-md= error.msg
+
 
         div(class="bg-white shadow py-8 px-4 rounded mx-auto max-w-4xl my-10 md:px-10")
-            form.space-y-5
+            form(method= "POST" action="/tareas/crear").space-y-8
+                input(type="hidden" name="_csrf" value= csrfToken)
                 .space-y-5 
-                    h3.text-leg.leading.font-medium.text-gray-900 Información General 
-                    p.text-gray-600 Añade la Información
+                    h3.text-leg.leading.uppercase.font-medium.text-gray-900 Información General 
+                    p.text-gray-600 Añade la Información requerida
 
                     div
-                        label.block.text-sm.uppercase.text-gray-500.mb-2.font-bold(for="titulo") Titulo de anuncio 
-                        input#titulo.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Titulo" type="text" name="titulo")
+                        label.block.text-sm.uppercase.text-gray-500.mb-2.font-bold(for="titulo") Titulo de la Tarea 
+                        input#titulo.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Titulo" type="text" name="titulo" value= datos.titulo ? datos.titulo : '')
+                    div
+                        label.block.text-sm.uppercase.text-gray-500.mb-2.font-bold(for="descripcion") Descripción
+                        textarea#descripcion.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Descripcion" type="text" name="descripcion" )=value= datos.descripcion ? datos.descripcion : ''
 
 
-                    div(class="md:flex md:gap-4 space-y-5 md:space-y-0")   
-                        
-                        div(class="md:w-1/2")
-                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="categoria") Categoria  
-                            select#categoria.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="categoria")
-                                option(value="") - Selecciona -
-                        div(class="md:w-1/2")
-                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="precio") Precio  
-                            select#precio.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="precio")
-                                option(value="") - Selecciona -
+            
                     
                     div(class="md:flex md:gap-4 space-y-5 md:space-y-0")                         
                         div(class="md:w-1/3")
-                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="objetivo") Objetivo  
-                            select#objetivo.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="objetivo")
+                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="importancia") Valor de Importancia  
+                            select#importancia.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="importancia")
                                 option(value="") - Selecciona -
                                 - var n =1;
                                     while n < 10
-                                        option(value=n ) #{n++} 
+                                        option(value=n selected= datos.importancia ? datos.importancia == n ? true : false : null) #{n++} 
 
                         div(class="md:w-1/3")
-                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="prioridad") Prioridad  
-                            select#prioridad.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="prioridad")
+                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="estimacion") Estimacion de Tiempo  
+                            select#estimacion.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="estimacion")
                                 option(value="") - Selecciona -
                                 - var n =1;
                                     while n < 5
-                                        option(value=n ) #{n++} 
+                                        option(value=n selected= datos.estimacion ? datos.estimacion == n ? true : false : null) #{n++} 
 
-                        div(class="md:w-1/3")
-                            label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="duracion") Duracion  
-                            select#duracion.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(name="duracion")
-                                option(value="") - Selecciona -
-                                - var n =1;
-                                    while n < 5
-                                        option(value=n ) #{n++} 
-            button(id="publicar" class="mt-5 w-full py-3 bg-red-600 hover:bg-red-700 rounded text-white font-bold uppercase cursor-pointer" type="button") Publicar Propiedad
+
+                
+                    Input(class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 rounded text-white font-bold uppercase cursor-pointer" type="submit" value="Crear Tarea")
+

@@ -1,10 +1,7 @@
-//Usamos Sequelize para el manejo de la base de datos sin usar lenguaje SQL
 import { DataTypes, Sequelize } from "sequelize";
-// usamos la API bcrypt para el encriptado de la clave
 import bcrypt from "bcrypt";
 import db from "../Config/db.js";
 
-//Crea en la base de datos la tabla Usuario 
 const Usuario = db.define(
   "usuarios",
   {
@@ -30,11 +27,17 @@ const Usuario = db.define(
         usuario.password = await bcrypt.hash(usuario.password, salt);
       },
     },
+    scopes: {
+      eliminarPassword:{
+        attributes:{
+          exclude:['password','token','confirmado','createdAt', 'updatedAt']
+        }
+      }
+    }
   }
 );
 
-//Metodos personalizados para el encriptado de la clave
-
+//Metodos personalizados
 Usuario.prototype.verificarPassword = function(password) {
   return bcrypt.compareSync(password,this.password);
 }

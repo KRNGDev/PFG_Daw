@@ -1,5 +1,4 @@
 import express from "express";
-//Se importan los distintos metodos que vamos creando
 import {
   formularioLogin,
   autenticar,
@@ -12,10 +11,8 @@ import {
   nuevoPassword,
 } from "../controllers/usuarioController.js";
 
-//crea el router
 const router = express.Router();
 
-//las redireciones a distintas paginas usando el metodo get y post
 router.get("/login", formularioLogin);
 router.post("/login", autenticar);
 

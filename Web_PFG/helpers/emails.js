@@ -1,11 +1,10 @@
-//Usamos nodemailer para el envio automatico de emails de confirmacion
 import nodemailer from "nodemailer";
 
-// Credenciales en la aplicacion que usemos de envio de emails Ejemplo:Mailtrap
 const emailRegistro = async (datos) => {
   const transport = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
     port: process.env.EMAIL_PORT,
+  
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
@@ -13,7 +12,6 @@ const emailRegistro = async (datos) => {
   });
 
   const { email, nombre, token } = datos;
-
   //Envio de email
   await transport.sendMail({
     from: "MeiyoDojo",
@@ -35,7 +33,6 @@ const emailRegistro = async (datos) => {
   });
 };
 
-//Envio de email para restaurar la contraseña
 const emailOlvidePassword = async (datos) => {
   const transport = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
@@ -47,7 +44,6 @@ const emailOlvidePassword = async (datos) => {
   });
 
   const { email, nombre, token } = datos;
-  
   //Envio de email
   await transport.sendMail({
     from: "MeiyoDojo",

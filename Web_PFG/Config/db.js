@@ -1,6 +1,4 @@
-//Importa Sequelize
 import { Sequelize } from "sequelize";
-//Importa dtoenv para utilizar el archivo .env para la proteccion de datos que no queremos mostrar
 import dotenv from "dotenv";
 dotenv.config({ path: ".env" });
 
