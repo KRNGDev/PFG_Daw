@@ -10,7 +10,6 @@ import {
   eliminar
 } from "../controllers/tareasController.js";
 import protegerRuta from "../middleware/protegerRuta.js";
-import upload from "../middleware/subirImagen.js";
 
 const router = express.Router();
 
@@ -25,7 +24,7 @@ router.post(
     .withMessage("La descripcion del la Tarea es obligatorio")
     .isLength({ max: 500 })
     .withMessage("La descripcion es demasiado larga"),
-  body("importancia").isNumeric().withMessage("Selecciona una habitacion"),
+  body("importancia").isNumeric().withMessage("Selecciona nivel de Importancia"),
   body("estimacion")
     .isNumeric()
     .withMessage("Selecciona un estimacion"),
@@ -41,7 +40,7 @@ router.post(
     .withMessage("La descripcion del la Tarea es obligatorio")
     .isLength({ max: 500 })
     .withMessage("La descripcion es demasiado larga"),
-  body("importancia").isNumeric().withMessage("Selecciona una habitacion"),
+  body("importancia").isNumeric().withMessage("Selecciona nivel de Importancia"),
   body("estimacion")
     .isNumeric()
     .withMessage("Selecciona un estimacion"),
